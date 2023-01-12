@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.encabezado{
+    background: #22223b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.encabezado header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.encabezado .logo img{
+    width: 150px;
+    padding: auto;
+}
+.encabezado header ul{
+    display: flex;
+    list-style: none;
+}
+.encabezado header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.encabezado header nav ul li a:hover{
+    color: #ff006e;
+}
+
+.nav-responsive{
+    background-color: #1CB698;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* INICIO */
+.inicio{
+    background: linear-gradient(to top, rgba(0,0,255,0.2), rgba(30,35,38,1)), 
+    url(https://images.squarespace-cdn.com/content/v1/596101599f7456d39c0cae2e/1577125503257-B0QPLGHX2Z2S6SDX5ZT8/psicologos.jpg?format=2500w);
+    background-size: cover;
+    height: 100vh; 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-inicio img{
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 160px;
+    border-style: solid;
+    border-width: 1rem;
+    border-top-color: #457b9d;
+    border-left-color: #457b9d;
+    border-bottom-color: #ff006e;
+    border-right-color: #ff006e;
+    float: right;
+ }
+
+.inicio .contenido-inicio h2{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 500px;
+    margin-top: 80px;
+}
+
+
