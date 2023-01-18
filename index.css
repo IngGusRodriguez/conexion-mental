@@ -86,6 +86,7 @@ html{
     margin-top: 80px;
 }
 
+/* CONOCENOS */
 .conocenos{
     background: #22223b;
     background-size: cover;
@@ -149,8 +150,28 @@ html{
 }
 @media only screen and (min-width:320px) and (max-width:768px){
 	.card{
-		margin: 20px;
+		margin: 15px;
 	}
 }
+
+/* SERVICIOS */
+.servicios{
+    background: #22223b;
+    background-size: cover;
+    height: 100vh; 
+}
+
+
+.c-item {
+    height: 600px;
+    padding-top: 70px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
 
 
