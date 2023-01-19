@@ -159,11 +159,11 @@ html{
     background: #22223b;
     background-size: cover;
     height: 100vh; 
+    align-items: center;
 }
 
-
 .c-item {
-    height: 500px;
+    height: 600px;
     padding-top: 70px;
   }
   
@@ -173,5 +173,81 @@ html{
     filter: brightness(0.6);
   }
 
+/* CONTACTO */
+.contacto {
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), 
+    url(https://www.terapiaweb.com.ar/wp-content/uploads/2021/06/terapia-psicoanalitica.jpeg);
+    background-size: cover;
+    height: 100vh; 
+}
+
+.contact-section {
+    padding: 7em;
+  }
+  
+  .container-contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+  }
+
+  .form-group button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ff006e;
+    z-index: -1;
+    transition: 1s;
+    border-radius: 20px;
+  }
+  
+  .form-group button:hover .overlay{
+    width: 100%;
+}
 
 
+  
